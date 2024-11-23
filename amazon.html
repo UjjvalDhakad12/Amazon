@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+    <script src="amazon.js"></script>
+    <script src="addcart.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="amazon.html"><img src="photos\1688364329amazon-logo-png-white.png" alt="Amazon"></a>
+        </div>
+        <div class="location">
+            <p>Delivering to Jabalpur 482002</p>
+            <a href="location.html">Update location</a>
+        </div>
+        <div class="search-bar">
+            <select id="productSelect" onchange="redirectToPage()">
+                <option value="all">All</option>
+                <option value="saree">Saree</option>
+                <option value="kurta">Kurta</option>
+                <option value="lehenga">Lehenga</option>
+                <option value="tunic">Tunic</option>
+                <option value="shawl">Shawl</option>
+            </select>
+            <input type="text" placeholder="Search Amazon.in">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="right-links">
+            <a href="#">EN <i class="fa fa-caret-down"></i></a>
+            <a href="login.html">Hello, sign in<br><strong>Account & Lists</strong></a>
+            <a href="singin.html">Returns<br><strong>& Orders</strong></a>
+            <a href="cart.html" class="cart"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+    </nav>
+
+
+    <nav class="sub-nav">
+        <a href="#">All</a>
+        <a href="mx.html">MX Player</a>
+        <a href="#">Sell</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Today's Deals</a>
+        <a href="mobile.html">Mobiles</a>
+        <a href="#">Electronics</a>
+        <a href="#">Prime</a>
+        <a href="#">Home & Kitchen</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Fashion</a>
+        <a href="#">New Releases</a>
+        <a href="#">Amazon Pay</a>
+        <a href="#">Computers</a>
+    </nav>
+
+    <div class="hero" style="background-image: url('photos/hro.jpg');">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a>Click here to go to amazon.in</a></p>
+
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Woman clothes </h2>
+                <a href="saree.html">
+                    <div class="box-img" style="background-image: url('photos/woaman-removebg-preview.png');"></div>
+                    <p>Shop now</p>
+                </a>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Child clothes </h2>
+                <a href="child.html">
+                    <div class="box-img" style="background-image: url('photos/bittu-removebg-preview.png');"></div>
+                    <p>Shop now</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Mobile </h2>
+                <a href="mobile.html">
+                    <div class="box-img" style="background-image: url('photos/—Pngtree—iphone 15 blue_13289457.png');">
+                    </div>
+                    <p>Shop now</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>bag's </h2>
+                <div class="box-img" style="background-image: url('photos/bag-removebg-preview.png');"></div>
+                <p>Shop now</p>
+            </div>
+
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Hair oil </h2>
+                <div class="box-img" style="background-image: url('photos/oil-removebg-preview.png');"></div>
+                <p>Shop now</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Toy's </h2>
+                <div class="box-img" style="background-image: url('photos/toys.png');"></div>
+                <p>Shop now</p>
+            </div>
+
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Kurthi's </h2>
+                <div class="box-img" style="background-image: url('photos/kurti-removebg-preview.png');"></div>
+                <p>Shop now</p>
+            </div>
+
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Book's </h2>
+                <div class="box-img" style="background-image: url('photos/book-removebg-preview.png');"></div>
+                <p>Shop now</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+
+            </ul>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

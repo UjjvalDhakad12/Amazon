@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Samsung Galaxy Watch4 Classic</title>
+    <link rel="stylesheet" href="amazon.css">
+    <script src="cart.html"></script>
+    <script src="amazon.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="amazon.html"><img src="photos\1688364329amazon-logo-png-white.png" alt="Amazon"></a>
+        </div>
+        <div class="location">
+            <p>Delivering to Jabalpur 482002</p>
+            <a href="location.html">Update location</a>
+        </div>
+        <div class="search-bar">
+            <select id="productSelect" onchange="redirectToPage()">
+
+                <option value="all">All</option>
+                <option value="saree">Saree</option>
+                <option value="kurta">Kurta</option>
+                <option value="lehenga">Lehenga</option>
+                <option value="tunic">Tunic</option>
+                <option value="shawl">Shawl</option>
+            </select>
+            <input type="text" placeholder="Search Amazon.in">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="right-links">
+            <a href="#">EN <i class="fa fa-caret-down"></i></a>
+            <a href="login.html">Hello, sign in<br><strong>Account & Lists</strong></a>
+            <a href="singin.html">Returns<br><strong>& Orders</strong></a>
+            <a href="cart.html" class="cart"><i class="fa fa-shopping-cart"></i> Cart</a>
+        </div>
+    </nav>
+
+
+    <nav class="sub-nav">
+        <a href="#">All</a>
+        <a href="mx.html">MX Player</a>
+        <a href="#">Sell</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Today's Deals</a>
+        <a href="mobile.html">Mobiles</a>
+        <a href="#">Electronics</a>
+        <a href="#">Prime</a>
+        <a href="#">Home & Kitchen</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Fashion</a>
+        <a href="#">New Releases</a>
+        <a href="#">Amazon Pay</a>
+        <a href="#">Computers</a>
+    </nav>
+
+    <div class="product-page">
+        <div class="product-image">
+            <img src="photos/oppok.png" alt="saree product-image">
+        </div>
+        <div class="product-info">
+            <h1>Elegantly drape yourself in this exquisite saree, where tradition meets timeless beauty.</h1>
+            <div class="rating">
+                <span>⭐ 4.2</span>
+                <span>90,30 ratings</span>
+            </div>
+            <div class="price">
+                <p><span class="discounted-price">₹32,999</span> <span class="original-price">₹39,999</span></p>
+                <p><strong>Inclusive of all taxes</strong></p>
+                <p>EMI starts at ₹436</p>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <ul>
+                    <li>Upto ₹4,000 discount on SBI Credit Cards</li>
+                    <li>No Cost EMI available upto ₹405.23/month</li>
+                </ul>
+            </div>
+            <div class="protection-plan">
+                <h3>Add a Protection Plan:</h3>
+                <ul>
+                    <li>Total Protection Plan: ₹749.00</li>
+                    <li>Extended Warranty: ₹513.92</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button
+                    onclick="addToCart({name: 'Exquisite Mobile 1', price: '₹32,999', image: 'photos/oppok.png'}, 1)">Add
+                    to Cart</button>
+
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-page">
+        <div class="product-image">
+            <img src="photos/redm.png" alt="saree product-image">
+        </div>
+        <div class="product-info">
+            <h1>Elegantly drape yourself in this exquisite saree, where tradition meets timeless beauty.</h1>
+            <div class="rating">
+                <span>⭐ 4.3</span>
+                <span>90,30 ratings</span>
+            </div>
+            <div class="price">
+                <p><span class="discounted-price">₹12,999</span> <span class="original-price">₹15,999</span></p>
+                <p><strong>Inclusive of all taxes</strong></p>
+                <p>EMI starts at ₹436</p>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <ul>
+                    <li>Upto ₹4,000 discount on SBI Credit Cards</li>
+                    <li>No Cost EMI available upto ₹405.23/month</li>
+                </ul>
+            </div>
+            <div class="protection-plan">
+                <h3>Add a Protection Plan:</h3>
+                <ul>
+                    <li>Total Protection Plan: ₹749.00</li>
+                    <li>Extended Warranty: ₹513.92</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button
+                    onclick="addToCart({name: 'Exquisite Mobile 2', price: '₹12,999', image: 'photos/redm.png'}, 1)">Add
+                    to Cart</button>
+
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-page">
+        <div class="product-image">
+            <img src="photos/mon.png" alt="saree product-image">
+        </div>
+        <div class="product-info">
+            <h1>Elegantly drape yourself in this exquisite saree, where tradition meets timeless beauty.</h1>
+            <div class="rating">
+                <span>⭐ 4.2</span>
+                <span>90,30 ratings</span>
+            </div>
+            <div class="price">
+                <p><span class="discounted-price">₹122,999</span> <span class="original-price">₹130,999</span></p>
+                <p><strong>Inclusive of all taxes</strong></p>
+                <p>EMI starts at ₹436</p>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <ul>
+                    <li>Upto ₹4,000 discount on SBI Credit Cards</li>
+                    <li>No Cost EMI available upto ₹405.23/month</li>
+                </ul>
+            </div>
+            <div class="protection-plan">
+                <h3>Add a Protection Plan:</h3>
+                <ul>
+                    <li>Total Protection Plan: ₹749.00</li>
+                    <li>Extended Warranty: ₹513.92</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button
+                    onclick="addToCart({name: 'Exquisite Mobile 3', price: '₹122,999', image: 'photos/mon.png'}, 1)">Add
+                    to Cart</button>
+
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-page">
+        <div class="product-image">
+            <img src="photos\—Pngtree—iphone 15 blue_13289457.png" alt="saree product-image">
+        </div>
+        <div class="product-info">
+            <h1>Elegantly drape yourself in this exquisite saree, where tradition meets timeless beauty.</h1>
+            <div class="rating">
+                <span>⭐ 4.2</span>
+                <span>90,30 ratings</span>
+            </div>
+            <div class="price">
+                <p><span class="discounted-price">₹80,999</span> <span class="original-price">₹95,999</span></p>
+                <p><strong>Inclusive of all taxes</strong></p>
+                <p>EMI starts at ₹436</p>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <ul>
+                    <li>Upto ₹4,000 discount on SBI Credit Cards</li>
+                    <li>No Cost EMI available upto ₹405.23/month</li>
+                </ul>
+            </div>
+            <div class="protection-plan">
+                <h3>Add a Protection Plan:</h3>
+                <ul>
+                    <li>Total Protection Plan: ₹749.00</li>
+                    <li>Extended Warranty: ₹513.92</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button
+                    onclick="addToCart({name: 'Exquisite Mobile 4', price: '₹80,999', image: 'photos/—Pngtree—iphone 15 blue_13289457.png'}, 1)">Add
+                    to Cart</button>
+
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-page">
+        <div class="product-image">
+            <img src="photos/nokia.png" alt="saree product-image">
+        </div>
+        <div class="product-info">
+            <h1>Elegantly drape yourself in this exquisite saree, where tradition meets timeless beauty.</h1>
+            <div class="rating">
+                <span>⭐ 4.2</span>
+                <span>90,30 ratings</span>
+            </div>
+            <div class="price">
+                <p><span class="discounted-price">₹999</span> <span class="original-price">₹1,999</span></p>
+                <p><strong>Inclusive of all taxes</strong></p>
+                <p>EMI starts at ₹436</p>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <ul>
+                    <li>Upto ₹4,000 discount on SBI Credit Cards</li>
+                    <li>No Cost EMI available upto ₹405.23/month</li>
+                </ul>
+            </div>
+            <div class="protection-plan">
+                <h3>Add a Protection Plan:</h3>
+                <ul>
+                    <li>Total Protection Plan: ₹749.00</li>
+                    <li>Extended Warranty: ₹513.92</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button
+                    onclick="addToCart({name: 'Exquisite Mobile 5', price: '₹999', image: 'photos/nokia.png'}, 1)">Add
+                    to Cart</button>
+
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="addcart.js">
+    </script>
+</body>
+
+</html>
